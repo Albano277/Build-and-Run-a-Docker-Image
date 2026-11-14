@@ -54,6 +54,7 @@ docker run -d --name docker-assignment4-container -p 3000:3000 docker-assignment
 ## Reflection Question
 **Answer the following question in the space below**: How does containerization with Docker differ from using virtual machines, and why might a development team choose Docker containers over VMs for deploying applications like the one you just containerized?
 
+Docker containers are different from virtual machines because they share the host operating system's kernel, while virtual machines need their own operating systems. Because of this, containers use fewer resources, start faster, and make it easier for developers to run applications in different environments without compatibility issues. For example, during this assignment, I was able to build and run a Node.js application without installing Node.js on my computer, which helped me understand why development teams might choose Docker over virtual machines.
 
 
 ## Application Requirements for Docker
